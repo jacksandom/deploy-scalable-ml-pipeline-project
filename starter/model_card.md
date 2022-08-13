@@ -17,7 +17,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 - The evaluation data is 20% of the original census data set
 
 ## Metrics
-- On the test dataset: precision was **0.73**, recall was **0.62** and fbeta was **0.67**
+- On the test dataset: precision was **0.77**, recall was **0.62** and fbeta was **0.69**
 
 ## Ethical Considerations
 - Evaluation was performed on different slices by education to look for model bias. More investigation is needed to understand this for other categories within the data set. 
