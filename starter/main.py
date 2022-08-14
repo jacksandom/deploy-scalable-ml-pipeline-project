@@ -6,9 +6,9 @@ from starter.ml.model import inference
 from starter.ml.data import process_data
 
 # Read model files
-model = pd.read_pickle(r"starter/model/model.pkl")
-Encoder = pd.read_pickle(r"starter/model/encoder.pkl")
-LB = pd.read_pickle(r"starter/model/lb.pkl")
+model = pd.read_pickle(r"model/model.pkl")
+Encoder = pd.read_pickle(r"model/encoder.pkl")
+LB = pd.read_pickle(r"model/lb.pkl")
 
 # Initialise FastAPI
 app = FastAPI()
