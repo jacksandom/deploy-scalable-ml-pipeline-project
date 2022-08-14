@@ -35,3 +35,7 @@ X_test, y_test, encoder, lb = process_data(
 # Train and save a model.
 model = train_model(X_train, y_train)
 pd.to_pickle(model, "starter/model/model.pkl")
+
+# Save encode and LB
+pd.to_pickle(encoder, "starter/model/encoder.pkl")
+pd.to_pickle(lb, "starter/model/lb.pkl")
