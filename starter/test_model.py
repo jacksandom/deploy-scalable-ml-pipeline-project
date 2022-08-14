@@ -30,9 +30,9 @@ X_train, y_train, encoder, lb = process_data(
 
 
 def test_train_model():
-    # Test that a an sklearn RandomForestClassifier object is returned
+    # Test that a an sklearn DecisionTreeClassifier object is returned
     model = train_model(X_train, y_train)
-    assert type(model) == sklearn.ensemble._forest.RandomForestClassifier
+    assert type(model) == sklearn.tree._classes.DecisionTreeClassifier
 
 def test_compute_model_metrics():
     # Test that three metrics are returned with a value between 0 and 1
