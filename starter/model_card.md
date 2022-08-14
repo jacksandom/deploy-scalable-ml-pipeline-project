@@ -3,7 +3,7 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-- This model uses a Random Forest Classifier to predict salary bands based on US census data
+- This model uses a Decision Tree Classifier to predict salary bands based on US census data
 - The model is developed as part of the Udacity ML DevOps Nanodegree
 
 ## Intended Use
@@ -17,7 +17,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 - The evaluation data is 20% of the original census data set
 
 ## Metrics
-- On the test dataset: precision was **0.77**, recall was **0.62** and fbeta was **0.69**
+- On the test dataset: precision was **0.71**, recall was **0.62** and fbeta was **0.66**
 
 ## Ethical Considerations
 - Evaluation was performed on different slices by education to look for model bias. More investigation is needed to understand this for other categories within the data set. 
